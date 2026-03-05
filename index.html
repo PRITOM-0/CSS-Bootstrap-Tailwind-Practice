@@ -1,13 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-</head>
-<body>
-    <h1 class="display-1">Big Title</h1>
-<h1 class="display-4">Medium Title</h1>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- 
+    display-1
+    lead
+    text-center, text-start, text-end
+    fw-bold, fw-semibold, fw-normal, fw-light    
+    text-uppercase, text-lowercase,text-capitalize
+    text-primary
+    text-success
+    text-danger
+    text-warning
+    text-info
+    text-muted
+    text-wrap
+    text-nowrap
+    text-break
+-->
 
-</body>
+    <p class="display-1">Big Title</p>
+    <p class="display-4">Medium Title</p>
+    <p class="lead">This is an important paragraph.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sint!
+    </p>
+
+    <p class="text-center">Centered text</p>
+    <p class="text-center text-md-start">Responsive alignment</p>
+
+    <p class="fw-bold">Bold text</p>
+    <p class="fw-light">Light text</p>
+    <p class="text-uppercase">hello world</p>
+    <p class="text-danger">Error message</p>
+    <p class="text-nowrap">
+      This text will not wrap. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Consequatur minima repellat, aspernatur sequi
+      voluptatibus voluptatum nostrum iure libero natus laboriosam minima, sunt
+      consectetur consequuntur nam, harum quas itaque. Delectus sed magnam esse.
+    </p>
+    <p class="text-wrap">
+      This text will not wrap. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. itia ducimus? Aliquid illum aperiam dolorem voluptatem
+      esse quisquam, natus laboriosam minima, sunt consectetur consequuntur nam,
+      harum quas itaque. Delectus sed magnam esse.
+    </p>
+    <p class="text-break">
+      This text will not wrap. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Consequaturlat, aspernatur sequi voluptatibus voluptatum
+      nostrum iure libero reprehenderit exercitationem deleniti sed voluptates
+      beatae consequuntur nesciunt non ipsa et magnam. Quos repudi
+    </p>
+
+    <div class="container m-3">
+      <img
+        src="https://gratisography.com/wp-content/uploads/2025/01/gratisography-tv-head-1170x780.jpg"
+        class="rounded-circle img-fluid"
+        style="width: 200px"
+      />
+    </div>
+    <div class="container m-3">
+      <img
+        src="https://gratisography.com/wp-content/uploads/2025/01/gratisography-tv-head-1170x780.jpg"
+        class="rounded-pill img-fluid"
+        style="width: 200px"
+      />
+    </div>
+    <div class="bg-light border border-primary rounded p-4">
+      <h3 class="text-primary">Card Title</h3>
+      <p class="text-muted">This is some content.</p>
+    </div>
+    <form class="p-4 border rounded">
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" />
+      </div>
+
+      <button class="btn btn-primary w-100">Login</button>
+    </form>
+
+    <button class="btn btn-primary btn-sm">Small</button>
+    <button class="btn btn-primary">Normal</button>
+    <button class="btn btn-primary btn-lg">Large</button>
+    <div class="text-center">
+      <button class="btn btn-outline-success btn-lg">Register</button>
+      <button class="btn btn-outline-danger btn-lg">Cancel</button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
